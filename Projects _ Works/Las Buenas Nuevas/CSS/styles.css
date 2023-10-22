@@ -1,0 +1,86 @@
+/*Margen 0*/
+* {
+  margin: 0;
+  padding-left:2px;
+}
+
+ /*Box sizing*/
+
+div main {
+  box-sizing: content-box 
+}
+p {
+  width: 75%
+}
+
+/*FONTS*/
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&family=Roboto+Condensed&family=Young+Serif&display=swap');
+
+  .letraRetro {
+    font-family: 'Pixelify Sans', sans-serif;
+  }
+  .letraNoticias {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+/*HS*/
+
+h1{
+    font-size: 60px;
+    font-family: 'Young Serif', serif;
+    color: rgb(11, 114, 197);
+}
+h2{
+    font-size: 40px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 60px;
+    font-family: 'Young Serif', serif;
+    color: rgb(11, 114, 197);
+}
+
+/* Clasificaciones*/
+
+.letra26 {
+    font-size: 26px ;
+}
+.resaltado {
+    font-weight: bold;
+}
+
+/*Sections*/
+
+.section1 p{
+  display: flex;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section4 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.supreme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.section2 article p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section2 article {
+  padding: 6px;
+}
